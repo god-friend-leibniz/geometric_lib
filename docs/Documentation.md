@@ -56,7 +56,7 @@ ca: float = circle_area(3.7)
 
 ```Python
 def square_perimeter(
-    length: float
+    side: float
 ) -> float:
 ```
 
@@ -74,7 +74,7 @@ sp: float = square_perimeter(3.7)
 
 ```Python
 def square_area(
-    length: float
+    side: float
 ) -> float:
 ```
 
@@ -94,8 +94,8 @@ sa: float = square_area(4.2, 3.7)
 
 ```Python
 def rectangle_perimeter(
-    length: float,
-    width: float
+    a_size: float, # one side
+    b_size: float # another side
 ) -> float:
 ```
 
@@ -113,8 +113,8 @@ rp: float = rectangle_perimeter(4.2, 3.7)
 
 ```Python
 def rectangle_area(
-    length: float,
-    width: float
+    a_size: float, # one side
+    b_size: float # another side
 ) -> float:
 ```
 

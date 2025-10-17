@@ -1,12 +1,12 @@
-def area(length: float, width: float) -> float:
+def area(a_size: float, b_size: float) -> float:
     '''
-    Given the length and width of a rectangle, calculates area
+    Given the a_size and b_size of a rectangle, calculates area
     '''
-    return length * width
+    return a_size * b_size
 
 
-def perimeter(length: float, width: float) -> float:
+def perimeter(a_size: float, b_size: float) -> float:
     '''
-    Given the length and width of a rectangle, calculates perimeter
+    Given the a_size and b_size of a rectangle, calculates perimeter
     '''
-    return 2 * (length + width)
+    return 2 * (a_size + b_size)

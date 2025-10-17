@@ -1,14 +1,14 @@
 import math
 
-def area(length: float) -> float:
+def area(side: float) -> float:
     '''
-    Given the length of a square, calculates area
+    Given the side of a square, calculates area
     '''
-    return math.pow(length, 2)
+    return math.pow(side, 2)
 
 
-def perimeter(length: float) -> float:
+def perimeter(side: float) -> float:
     '''
-    Given the length of a square, calculates perimeter
+    Given the side of a square, calculates perimeter
     '''
-    return 4 * length
+    return 4 * side
