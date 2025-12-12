@@ -38,3 +38,4 @@ Explore our [manual](./Documentation.md) for all information
 - 47e43462fdb514aa72bbb23e89a5a90fe516b1c0 -> Rectangle support and functions description
 - 8ba9aeb3cea847b63a91ac378a2a6db758682460 -> Circle and square support
 - 9a102f3a2eaceb2196143ba7ff8595ff31ce0d52 -> Unit tests
+- ??? -> CI
