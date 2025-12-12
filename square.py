@@ -9,7 +9,7 @@ def area(side: float) -> float | bool:
     return side * side
 
 
-def perimeter(side: float) -> float:
+def perimeter(side: float) -> float | bool:
     '''
     Given the side of a square, calculates perimeter
     '''
