@@ -28,7 +28,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run all unit tests
-        run: python -m unittest discover
+        run: python -m unittest circle.py square.py rectangle.py
         
   build-windows:
     # The type of runner that the job will run on
@@ -44,4 +44,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run all unit tests
-        run: python -m unittest discover
+        run: python -m unittest circle.py square.py rectangle.py
